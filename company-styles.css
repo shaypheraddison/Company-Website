@@ -2,14 +2,31 @@ body {
     background-color: #f1e8e9;
 }
 
-nav {
-    font-size: 5mm;
+.nav-flexbox {
+    font-size: 7mm;
     background-color: #8a9ea7;
-    border: 20px solid #8a9ea7 ;
-    padding: 0 5%;
+    /* border: 20px solid #8a9ea7 ; */
+    width: 100%;
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    justify-content: space-around;
 }
 
-.container {
+.flex-1, .flex-2, .flex-3, .flex-4 {
+    padding: 20px;
+}
+
+.flex-5 {
+    margin-left: auto;
+    padding: 10px;
+}
+
+.flex-6 {
+    padding: 30px;
+}
+
+.products-grid {
     display: grid;
     padding: 10px;
     grid-template-columns: 1fr 1fr 1fr;
@@ -71,25 +88,21 @@ nav {
     font-size: 22px;
 }
 
-nav li {
-    display: inline-block;
-}
-
 nav a:link, nav a:visited {
     color: white;
     text-decoration: none;
-    padding: 23px;
+    /* padding: 23px; */
 }
 
 nav a:hover, nav a:focus {
     color: #81532f;
 }
 
-.loginbar {
+/* .loginbar {
     float: right;
     font-size: 5mm;
     margin-top: -37px;
-}
+} */
 
 h1 {
     text-align: center; 
@@ -755,7 +768,7 @@ textarea {
     text-align: center;
     font-family: Adamina;
 }
-@media only screen and (max-width: 500px) {
+/* @media only screen and (max-width: 500px) {
     nav a:link, nav a:visited {
         color: white;
         text-decoration: none;
@@ -1566,4 +1579,4 @@ textarea {
     }
 
 
-}
+} */
