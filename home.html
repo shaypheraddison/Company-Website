@@ -30,18 +30,14 @@
     </header>
 
     <main>
-        <div class="image-container postion-relative">
-            <div class="position-absolute w-100">
-                <img src="Resources/chairs.jpg" alt="chairs" class="img-fluid" style="height: 900px; width: 100%;">
-            </div>
-            <div class="position-absolute top-50 start-50 translate-middle border border-2 border-black">
-                <img src="Resources/VTlogo.png" alt="logo" class="img-fluid" style="height: 550px; width: 750px;">
-            </div>
+        <div class="image-container-lg postion-relative">
+            <img src="Resources/chairs.jpg" alt="chairs" class="z-0 position-absolute w-100 h-100">
+            <img src="Resources/VTlogo.png" alt="logo" class="z-1 position-absolute top-50 start-50 translate-middle w-50">
             <div class="position-absolute bottom-0 start-50 translate-middle fs-3 fw-normal text-white">
                 Have a seat, we've been waiting for you.
             </div>
-            <div class="position-absolute bottom-0 start-50 translate-middle p-4">
-                <a href="products.html" style="text-decoration: none;">
+            <div class="position-absolute top-100 start-50 translate-middle p-4">
+                <a href="products.html" class="cart-link">
                     <button type="button" class="btn btn-outline-light">Shop Now</button>
                 </a>
             </div>
